@@ -9,6 +9,7 @@ Group:		Applications/WWW
 Source0:	http://resources.neolao.com/download/xul/easydokuwiki/easydokuwiki.zip
 # Source0-md5:	7a50747fcf617e6d027bfb6f9c5f76e5
 URL:		http://resources.neolao.com/xul/easydokuwiki
+BuildRequires:	unzip
 Requires:	dokuwiki >= 20061008
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
